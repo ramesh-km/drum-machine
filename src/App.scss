@@ -48,3 +48,11 @@
   font-family: monospace;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 700px) {
+  #drum-machine {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    background-color: red;
+  }
+}
